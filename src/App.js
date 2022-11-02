@@ -1,7 +1,14 @@
+import { NavBar } from './components/NavBar';
+import { ItemListContainer } from './components/ItemListContainer';
+import "./App.css";
+
 const App = () => {
   return (
-    <h2>Bienvenidos a Yo Helados!</h2>
-  );
-}
+    <div className="App">
+      <NavBar />
+      <ItemListContainer text='Catalogo de Productos' />
+    </div>
+  )
+};
 
 export default App;
